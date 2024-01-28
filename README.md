@@ -75,7 +75,7 @@
             <h4>install file:</h4>
             <img src="./src/img/install.png">
             <br>
-            <h4>client.py file:</h4>
+            <h4>client.py file (91% undetectable):</h4>
             <img src="./src/img/client.png">
             <br>
             <h4>server.py file:</h4>
