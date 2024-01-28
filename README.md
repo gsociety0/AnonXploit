@@ -11,7 +11,7 @@
             <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3"></a>
             <img src="https://img.shields.io/badge/dependencies-Up%20to%20Date-brightgreen.svg" and="Dependencies">
         </p>
-        <h4>AnonXploit is a tool for pentesters, it can be used by organizations of all sizes, including individuals.</h4>
+        <h4>AnonXploit is a pentesting tool, that create a Powershell RAT. It can be used by organizations of all sizes, including individuals.</h4>
         <h4>It was developed with the purpose of exploiting the vulnerability of creating a reverse shell between the pentester and the injected computer. This tool can work without warnings about viruses and suspicious connections.</h4>
         <br>
         <div class="table_of_contents">
@@ -67,7 +67,10 @@
         <br>
         <div id="code_analysis">
             <h2>☑️ Code Analysis</h2>
-            <h4>If you check the source code of each AnonXploit file, you will notice that the code is obfuscated. This is done for security reasons and compatibility with WSL (Windows Subsystem for Linux), where the antivirus detected the files as viruses and deleted them.</h4>
+            <h4>If you check the source code of the two main files (client.py/server.py) of AnonXploit file, you will notice that the code is obfuscated. This is done for security reasons and compatibility with WSL (Windows Subsystem for Linux), where the antivirus detected the files as viruses and deleted them.</h4>
+            <h3>🏛️ RAT Architecture</h3>
+            <img src="./src/img/architecture.png"> 
+            <br>
             <h3>🔬 Virus Total</h3>
             <h4>install file:</h4>
             <img src="./src/img/install.png">
@@ -82,7 +85,7 @@
             <p><b>DON'T UPLOAD THE RAT FILE TO VIRUS TOTAL!</b></p>
             <h4>The RAT bypasses Windows Defender antivirus. <b>(Information verified until 1/28/2024)</b></h4>
             <h4>"Files and URLs sent to VirusTotal will be shared with antivirus vendors and security companies..."</h4>
-            <h6>Source: <a href="https://en.wikipedia.org/wiki/VirusTotal">Wikipedia</a></h6>
+            <h6>Source: <a href="https://en.wikipedia.org/wiki/VirusTotal#Privacy">Wikipedia</a></h6>
         </div>
             <br>
             <div id="license">
