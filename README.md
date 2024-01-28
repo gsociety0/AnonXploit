@@ -5,7 +5,7 @@
         <meta name="author" content="gsociety">
     </head>
     <body>
-        <h1>AnonXploit</h1>
+        <img src="./src/img/logo.png" alt="logo">
         <p>
             <img src="https://badges.frapsoft.com/os/v1/open-source.svg" alt="Open Source Love">
             <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3"></a>
