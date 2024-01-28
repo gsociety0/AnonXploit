@@ -63,6 +63,8 @@
             <code>python3 client.py</code>
             <h5>server.py</h5>
             <code>python3 server.py</code>
+            <h3>🪝 Social Engineering</h3>
+            <h4>(Ethically speaking) You need the other person to perform the RAT, for this, you can use Social Engineering (S.E) techniques. One of the ways that can be used is to convert this file into an Executable (.EXE), name it "picture.png.exe", define an icon of a photograph and send it to the person, making it appear that it is a photograph. Now, you study the situation and act in the best way possible.</h4>
         </div>
         <br>
         <div id="code_analysis">
