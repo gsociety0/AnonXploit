@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import os 
 from logo import logo 
 from colorama import Fore ,Style 
