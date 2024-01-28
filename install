@@ -1,30 +1,21 @@
 #!/usr/bin/bash
- ${@%%A\)\{REc-} ${@/4cmNC/4glaq}   ${*~~}p"r"\i$'\156'\tf %s   "$(    yoFrgjO=' ${*#:hWn\(} '"'"''"'"'PRI'"'"''"'"''"'"'N'"'"''"'"''"'"'$'"'"'\X74'"'"'F   %S "$(     ${*,} "${@//BL-tLJqt}" $'"'"'\162'"'"'$'"'"'\U0065'"'"'V <<< '"'"'OHCE
-
-"M0[330\.M0[330\SURIVITNAM13;1[330\ TUOBA GNIYRROWM13[330\ M0[330\TUOHTIWM13;1[330\ M0[330\LOOT EHT YOJNeM13[330\" E- OHCE
-
-RAELC
-
-* 777 DOMHC
-
-* 777 DOMHC ODUS
-
-/tad/. RIDKM
-
-/tar/. RIDKM
-
-AMAROLOC LLATSNI PIP M- 3NOHTYP
-
-KROWEMARF-TIOLPSATEM LLATSNI PANS ODUS
-
-ROMRAPPA.DPANS ELBANE LTCMETSYS ODUS ; DPANS ELBANE LTCMETSYS ODUS
-
-ROMRAPPA.DPANS TRATS LTCMETSYS ODUS ; DPANS TRATS LTCMETSYS ODUS
-
-DPANS PIP-3NOHTYP LLUF-3NOHTYP 3NOHTYP LLATSNI Y- TPA ODUS
-
-Y- EDARGPU-LLUF TPA ODUS
-
-ETADPU TPA ODUS
-
-RAELC'"'"'   ${*^^}     "${@/>I\(FMN_/YmJ\[gFBf}"    )"   ${*,,} | ${@^^}   $bash  ${!@}   '   ${@~~} ${*^^}   &&  ${*%KG8;I<Nf}  $*   \pr${*~~}in\tf   %s   "${yoFrgjO~~}"  "$@"  "${@%uNPQf}"  ${*,,} ${@/t2Wj0/yvrJJ}   )"  ${@/SCa~wS/Y\`0ND}   ${@#O\(\`=p\{}   | "${@,,}"  "${@/\!K|v/nJ-N\)y}"   ${!#}   "${@~~}"  
+clear
+sudo apt update
+sudo apt full-upgrade -y
+sudo apt -y install python3 python3-full python3-pip powershell snapd
+sudo systemctl start snapd ; sudo systemctl start snapd.apparmor
+sudo systemctl enable snapd ; sudo systemctl enable snapd.apparmor
+sudo snap install metasploit-framework
+pwsh -command Install-Module -Name PS2EXE
+python3 -m pip install colorama
+mkdir ./RAT/
+mkdir ./DAT/
+chmod 777 *
+clear
+echo -e "\e[36mAnonXploit\e[0m \e[1;92minstalled\e[0m\e[97m!\e[0m"
+echo
+echo -e "\e[97mUse\e[0m \e[3;33mpython3 client\e[0m \e[97mto create the RAT file.\e[0m"
+echo -e "\e[97mUse\e[0m \e[3;33mpython3 server\e[0m \e[97mto listen for connection.\e[0m"
+echo
+echo -e "\033[31mEnjoy the tool\033[0m \033[1;31mwithout\033[0m \033[31mworrying about \033[1;31mantivirus\033[0m.\033[0m"
+echo
