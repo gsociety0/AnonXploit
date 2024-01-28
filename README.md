@@ -53,7 +53,7 @@
             <h5>Download the Repository</h5>
             <code>git clone https://github.com/gsociety0/AnonXploit.git</code>
             <h5>Install AnonXploit</h5>
-            <code>./install</code> or <code>bash ./install</code>
+            <code>bash ./install</code>
         </div>
         <br>
         <div id="how_to_use">
