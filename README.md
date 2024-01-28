@@ -45,7 +45,7 @@
             <h5>System Update</h5>
             <code>pkg update</code>
             <br>
-            <code>pkg full-upgrade -y</code>
+            <code>pkg upgrade -y</code>
             <h5>Install Git</h5>
             <code>pkg install -y git</code>
             <h5>Install Python3</h5>
