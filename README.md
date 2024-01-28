@@ -20,7 +20,7 @@
             <p><a href="#installation">2. 🔨 Installation</a></p>
             <p><a href="#how_to_use">3. 📡 How to Use</a></p>
             <p><a href="#code_analysis">4. ☑️ Code Analysis</a></p>
-            <p><a href="#license">4. ©️ License</a></p>
+            <p><a href="#license">5. ©️ License</a></p>
         </div>
         <br>
         <div id="supported_os">
