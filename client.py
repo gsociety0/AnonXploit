@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import os 
 from colorama import Fore ,Back ,Style 
 from base64 import b64encode 
