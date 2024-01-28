@@ -40,7 +40,7 @@
             <h5>Download the Repository</h5>
             <code>git clone https://github.com/gsociety0/AnonXploit.git</code>
             <h5>Install AnonXploit</h5>
-            <code>./install</code> or <code>bash ./install</code>
+            <code>bash ./install</code>
             <h3>Installation for Termux</h3>
             <h5>System Update</h5>
             <code>pkg update</code>
